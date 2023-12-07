@@ -16,7 +16,7 @@ form.addEventListener('submit', function (event) {
 //4.) Defines new variable for the data in the form using 'form' as a perameter.
 // 'New' keyword is for creating new object
 //5.) Retrives value associated with colour key from 'formData' object
-//6.) Stores retrived colour in browsers local storage. Key is named 'colour'
+//6.) Stores retrived colour in browsers local storage. Key is named 'colour', value is declared const colour
 
 const colour = localStorage.getItem('colour');
 // // retrives value from 'colour' key in local storage
